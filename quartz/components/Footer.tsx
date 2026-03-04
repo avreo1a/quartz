@@ -13,6 +13,9 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
+        <div class="footer-goat">
+          <img src="/static/goat.png" alt="goat" class="spinning-goat" />
+        </div>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
