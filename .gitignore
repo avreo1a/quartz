@@ -11,6 +11,7 @@ private/
 replit.nix
 
 # Ignore all content except "Explore my Brain"
-content/*
+content/**
 !content/Explore my Brain/
+!content/Explore my Brain/**
 !content/index.md
