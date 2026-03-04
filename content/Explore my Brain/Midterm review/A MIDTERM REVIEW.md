@@ -14,7 +14,7 @@
 - The various forms of delay in a packet-switched network
 - Throughput (Sec. 1.4)
 - Layers in the Internet protocol stack (Sec. 1.5)
-- The HOL (head of line) blocking issue
+- [[The HOL (Head of Line) Blocking Issue]]
 
 
 

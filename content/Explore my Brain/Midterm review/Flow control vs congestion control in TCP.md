@@ -1,5 +1,7 @@
 #NetworkMidtermReview
 
+### What is TCP, Flow Control, and Congestion Control
+
 TCP just tries to sense congestion, and when the sender knows that the packets arent getting through it begins to back off
 
 Flow Control: Sender will send enough data that can be accommodated at the receiver end.

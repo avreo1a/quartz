@@ -1,6 +1,9 @@
 
 #NetworkMidtermReview
 
+
+### What is TCP?
+
 TCP ( Transmission Control Protocol ) - Connection-oriented, reliable
 
 Establishes a 3 way Handshake (SYN -> SYN-ACK -> ACK)
@@ -12,6 +15,9 @@ Flow Control ( Sliding Widnow ) and congestion control
 Higher overhead, slower
 
 Use cases: HTTP/HTTPS,SSH,FTP,Email
+
+
+### What is UDP?
 
 UDP (User Datagram Protocol) - Connectionless Unreliable 
 

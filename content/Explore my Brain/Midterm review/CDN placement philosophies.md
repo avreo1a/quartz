@@ -1,6 +1,6 @@
 #NetworkMidtermReview
 
-
+### What is a CDN and some of the Placement Philosophies that come with it.
 CDN Content Delivery Network
 
 CDNs store Everything within a webpage, each link can point from different CDN servers 
