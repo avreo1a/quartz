@@ -1,7 +1,7 @@
 .DS_Store
 .gitignore
 node_modules
-public
+/public
 prof
 tsconfig.tsbuildinfo
 .obsidian
@@ -9,3 +9,7 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# Ignore all content except "Explore my Brain"
+content/*
+!content/Explore my Brain/

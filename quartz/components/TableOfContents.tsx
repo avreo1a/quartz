@@ -60,6 +60,8 @@ export default ((opts?: Partial<Options>) => {
           class={fileData.collapseToc ? "collapsed toc-content" : "toc-content"}
         >
           {fileData.toc.map((tocEntry) => (
+
+            
             <li key={tocEntry.slug} class={`depth-${tocEntry.depth}`}>
               <a href={`#${tocEntry.slug}`} data-for={tocEntry.slug}>
                 {tocEntry.text}
