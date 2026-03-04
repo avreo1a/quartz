@@ -1,3 +1,4 @@
+#NetworkMidtermReview
 ### What is Head of Line?
 The Head of Line (HOL) is a bottleneck in Packet Switched systems where a delayed packet at the front of the queue stops the previous nodes behind it from being processed. This reduces system throughput and increases latency.
 
