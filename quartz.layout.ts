@@ -5,7 +5,12 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.MovieGrid({ folder: "Explore-my-Brain/movies" }),
+      condition: (page) => page.fileData.slug === "Explore-my-Brain/movies",
+    }),
+  ],
   footer: Component.Footer({
     links: {
     },

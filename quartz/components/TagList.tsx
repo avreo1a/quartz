@@ -1,14 +1,16 @@
-import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 
-const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+const TagList: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
   const tags = fileData.frontmatter?.tags
+  // Get the base path from config (handles subdirectory deployments like GitHub Pages)
+  const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+  const baseDir = url.pathname.replace(/\/$/, "") // remove trailing slash if present
   if (tags && tags.length > 0) {
     return (
       <ul class={classNames(displayClass, "tags")}>
         {tags.map((tag) => {
-          const linkDest = resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)
+          const linkDest = `${baseDir}/tags/${tag}`
           return (
             <li>
               <a href={linkDest} class="internal tag-link">

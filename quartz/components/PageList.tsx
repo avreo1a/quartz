@@ -1,8 +1,13 @@
-import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
+import { isFolderPath } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
+
+function getBaseDir(baseUrl?: string): string {
+  const url = new URL(`https://${baseUrl ?? "example.com"}`)
+  return url.pathname.replace(/\/$/, "")
+}
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -64,6 +69,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
     list = list.slice(0, limit)
   }
 
+  const baseDir = getBaseDir(cfg.baseUrl)
+
   return (
     <ul class="section-ul">
       {list.map((page) => {
@@ -78,7 +85,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
               </p>
               <div class="desc">
                 <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                  <a href={`${baseDir}/${page.slug}`} class="internal">
                     {title}
                   </a>
                 </h3>
@@ -88,7 +95,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                   <li>
                     <a
                       class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                      href={`${baseDir}/tags/${tag}`}
                     >
                       {tag}
                     </a>

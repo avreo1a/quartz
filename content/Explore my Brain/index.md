@@ -1,5 +1,5 @@
 ---
-title: Public
+title: Explore my Brain
 ---
 
-# Public
+# Explore my Brain

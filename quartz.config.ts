@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian", "Core", "Hardware Projects", "Journal", "Leetcode", "School Activities", "Wisdom-io Startup", "Z-Hidden", "daily", "Clippings", "*.epub", "*.kanban.md"],
+    ignorePatterns: ["private", "templates", "**/_template*", ".obsidian", "Core", "Hardware Projects", "Journal", "Leetcode", "School Activities", "Wisdom-io Startup", "Z-Hidden", "daily", "Clippings", "*.epub", "*.kanban.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
