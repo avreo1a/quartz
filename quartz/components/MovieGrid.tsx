@@ -35,7 +35,10 @@ export default ((userOpts?: Partial<Options>) => {
   const MovieGrid: QuartzComponent = ({
     allFiles,
     displayClass,
+    cfg,
   }: QuartzComponentProps) => {
+    const baseUrl = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+    const baseDir = baseUrl.pathname.replace(/\/$/, "")
     // Filter movies from the specified folder
     const movies = allFiles.filter((file) => {
       const slug = file.slug ?? ""
@@ -108,7 +111,7 @@ export default ((userOpts?: Partial<Options>) => {
                 data-movie-thoughts={thoughts}
               >
                 <a
-                  href={`/${movieSlug}`}
+                  href={`${baseDir}/${movieSlug}`}
                   class="movie-card-link internal"
                 >
                   <div class="movie-poster-wrapper">
