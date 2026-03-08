@@ -6,9 +6,11 @@ interface Options {
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const links = opts?.links ?? []
-    const goatPath = "/static/goat.png"
+    const baseUrl = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+    const baseDir = baseUrl.pathname.replace(/\/$/, "")
+    const goatPath = `${baseDir}/static/goat.png`
     return (
       <footer class={`${displayClass ?? ""}`}>
         <div class="footer-goat">
