@@ -1,7 +1,7 @@
 ---
 title: Marty Supreme
 year: 2025
-rating: 4
+rating: 4.5
 poster: https://image.tmdb.org/t/p/w300/firAhZA0uQvRL2slp7v3AnOj0ZX.jpg
 tags:
   - movies

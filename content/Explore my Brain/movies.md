@@ -1,5 +1,6 @@
 ---
 title: Movies
 ---
+My personal movie log, idk why but i really don't wanna use letterboxd.
 
-A personal movie log, Letterboxd-style. Right-click (or long-press on mobile) any poster to see details. Click to read the full note.
+Press Right-Click ( Or Long press on mobile to see quick details), or click to read the full note of the move.
