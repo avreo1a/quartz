@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "avreo1a.github.io/quartz",
     ignorePatterns: ["private", "templates", "**/_template*", ".obsidian", "Core", "Hardware Projects", "Journal", "Leetcode", "School Activities", "Wisdom-io Startup", "Z-Hidden", "daily", "Clippings", "*.epub", "*.kanban.md"],
     defaultDateType: "modified",
     theme: {
