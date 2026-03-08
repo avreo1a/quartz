@@ -22,6 +22,11 @@ footer {
     width: 80px;
     height: auto;
     animation: spin 3s linear infinite;
+    transition: filter 0.3s ease;
+
+    :root[saved-theme="dark"] & {
+      filter: invert(1);
+    }
   }
 
   & ul {
