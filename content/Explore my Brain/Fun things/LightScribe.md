@@ -18,7 +18,7 @@ LightScribe Needs:
 
 	- The Disc Coating:
 
-		- The label side of the LighScribe disc is coated with a heat sensitive dye, almost like thermal paper. It starts out as a light golden color and when hit within laser heat the dye darkens in that area.
+		- The label side of the LightScribe disc is coated with a heat sensitive dye, almost like thermal paper. It starts out as a light golden color and when hit within laser heat the dye darkens in that area.
 
 	- The Drive:
 
@@ -35,7 +35,7 @@ The Process:
 
 The Limits of LightScribe:
 
-- Its super slow I mean a disc can take around 20-30 minutes because every track ahs to be etched individually, literally o(n) but more technically o(r * c) (r is the number of radial tracks and c is the circumference step per track).
+- Its super slow I mean a disc can take around 20-30 minutes because every track has to be etched individually, literally o(n) but more technically o(r * c) (r is the number of radial tracks and c is the circumference step per track).
 - Greyscale only, no color output.
 
 
