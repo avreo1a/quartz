@@ -1,6 +1,6 @@
 What is LightScribe?
 
-So Light scribe is a disc labeling technology made by HP that uses a laser to burn images / text / any visual data form onto the label side of CDs and DVDs. Super cool but unfortunately LightScribe doesn't work on just any CD burner.
+So LightScribe is a disc labeling technology made by HP that uses a laser to burn images / text / any visual data form onto the label side of CDs and DVDs. Super cool but unfortunately LightScribe doesn't work on just any CD burner.
 
 
 https://preview.redd.it/got-my-lightscribe-today-v0-gxgkmlpd86ng1.jpg?width=640&crop=smart&auto=webp&s=1c0c38368f5585c195d1810e2856c7cce68ee141
