@@ -39,7 +39,7 @@ The Limits of LightScribe:
 - Greyscale only, no color output.
 
 
-Unfortunatrley HP killed this in 2013
+Unfortunately HP killed this in 2013
 
 However this is still very sick to me and I NEED ONE RIGHT NOW.
 
