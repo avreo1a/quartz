@@ -11,7 +11,7 @@
 - Sequence numbers and acknowledgement numbers in TCP
 - [[Flow control vs congestion control in TCP]]
 -  [[CDN placement philosophies]]
-- The various forms of delay in a packet-switched network
+- [[The Various Forms of Delay in a Packet-Switched Network]]
 - Throughput (Sec. 1.4)
 - [[Layers in the Internet protocol stack (Sec. 1.5)]]
 - [[The HOL (Head of Line) Blocking Issue]]

@@ -18,3 +18,8 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 
 
 npx quartz build --serve
+
+
+
+### This testing branch is just for adding a terminal and a file dir so you can use basic commands 
+
