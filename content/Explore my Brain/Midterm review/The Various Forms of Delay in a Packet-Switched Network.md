@@ -16,7 +16,7 @@ Once a packet reaches the front of the queue, the router begins pushing the bits
 
 ### Propagation Delay
 
-
+The time taken for a signal to reach its destination.
 
 ### Total Node Delay
 
