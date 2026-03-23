@@ -6,4 +6,4 @@ poster: https://www.themoviedb.org/t/p/w1280/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg
 tags:
   - movies
 ---
-This movie was Interesting but very simplistic and expected. It basically just about this ML / AI Engineer, Caleb getting selected to work on a turing test for an AI Robot named Ava. However Oscar doesnt know that the person who made the AI Nathan didn't choose him due to his Skill and expierence within AI but because of his Search and Porn history, He was the final turing test to see if man can fall in love with a fucking robot.
+Interesting movie, but very simplistic and predictable. It's basically about this ML/AI engineer named Caleb who gets selected to administer a Turing test for an AI robot named Ava. What Caleb doesn't know is that Nathan, the guy who built her, didn't choose him based on his skill or experience in AI. He chose him based on his search history and porn habits. Caleb WAS the Turing test. The whole point was to see if a man could genuinely fall in love with a robot and that chud really did.

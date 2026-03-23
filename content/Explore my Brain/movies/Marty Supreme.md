@@ -7,4 +7,6 @@ tags:
   - movies
 ---
 
-A stylized look at table tennis hustler Marty Reisman in 1950s New York. Timothée Chalamet brings energy to the role, but the film struggles to find its footing between sports drama and character study.
+---
+
+Marty Supreme really blew me away. Who knew a movie about ping pong could get this fucking insane and still have so many plot holes? Every time you feel like things are winding down, the tension snaps right back up from just crazy events, the black eye, the bath tub, or just even when they scammed those hicks in the middle of nowhere, and that's honestly what makes the film so iconic.
