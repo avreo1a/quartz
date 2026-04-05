@@ -161,6 +161,13 @@
   }
 }
 
+.half-star {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 0.55em;
+}
+
 .movie-rating {
   font-size: 0.9rem;
   color: #ffc107;

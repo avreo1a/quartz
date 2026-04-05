@@ -1,3 +1,4 @@
+import { JSX } from "preact"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { QuartzPluginData } from "../plugins/vfile"
 import style from "./styles/movieGrid.scss"
@@ -22,11 +23,17 @@ const defaultOptions: Options = {
 }
 
 // Helper to render star rating
-function renderStars(rating: number): string {
+function renderStars(rating: number): JSX.Element {
   const fullStars = Math.floor(rating)
   const halfStar = rating % 1 >= 0.5
   const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)
-  return "★".repeat(fullStars) + (halfStar ? "½" : "") + "☆".repeat(emptyStars)
+  return (
+    <>
+      {"★".repeat(fullStars)}
+      {halfStar && <span class="half-star">★</span>}
+      {"☆".repeat(emptyStars)}
+    </>
+  )
 }
 
 export default ((userOpts?: Partial<Options>) => {
@@ -201,7 +208,8 @@ export default ((userOpts?: Partial<Options>) => {
         const fullStars = Math.floor(rating)
         const halfStar = rating % 1 >= 0.5
         const emptyStars = 5 - fullStars - (halfStar ? 1 : 0)
-        return '★'.repeat(fullStars) + (halfStar ? '½' : '') + '☆'.repeat(emptyStars)
+        const halfHtml = halfStar ? '<span class="half-star">★</span>' : ''
+        return '★'.repeat(fullStars) + halfHtml + '☆'.repeat(emptyStars)
       }
 
       function openModal(card) {
